@@ -123,10 +123,8 @@ public abstract class Person implements Serializable {
                 break;
             }
         }
-        if （flag）{
-            if (Integer.parseInt(ID) <= 0){
+        if (flag && Integer.parseInt(ID) <= 0){
                 flag = false;
-            }
         }
         return flag;
     }
